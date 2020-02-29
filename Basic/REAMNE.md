@@ -7,3 +7,13 @@ cd ~/
 chmod u+x update.sh
 ```
 
+# 系统配置：
+
+...
+
+# vim配置：
+
+[源配置地址](https://github.com/i-curve/language/blob/master/Linux/vim/vim.md)
+
+把.vimrc里面的文件放到~/.vimrc中即可
+
