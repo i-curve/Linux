@@ -3,9 +3,9 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 touch ~/.vimrc
 cat > ~/.vimrc <<EOF
-"这是注释
+"This is the annotation
 
-"设置行号
+"Set the Row Number
 "set number
 set termencoding=utf-8
 
@@ -19,13 +19,13 @@ set softtabstop=4
 
 set autoindent
 
-"定义映射
+"Set the Map
 let mapleader=","
 inoremap <leader>w <Esc>:w<cr>
 inoremap jj <Esc>
 vnoremap jj <Esc>
 
-"这是安装插件 vim-plug
+"This is the plug: vim-plug
 call plug#begin('~/.vim/plugged')
 Plug 'mhinz/vim-startify'
 Plug 'vim-airline/vim-airline'
@@ -41,7 +41,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'kien/ctrlp.vim'
 call plug#end()
 
-"插件中的定义的映射
+"Set the Map in Plug
 nnoremap <leader>v :NERDTreeFind<cr>
 nnoremap <leader>g :NERDTreeToggle<cr>
 let g:ctrlp_map = '<c-p>'
