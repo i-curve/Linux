@@ -2,7 +2,7 @@
 echo 'The process will install the version nginx-1.16.1'
 read -p 'Y/N:' check
 sudo apt-get update
-sudo apt-get -y install openssl libssl-dev libpcre3 libpcre3-dev zlib1g-dev g++
+sudo apt-get -y install openssl libssl-dev libpcre3 libpcre3-dev zlib1g-dev g++ make
 
 cd /opt
 mkdir nginx-source nginx
