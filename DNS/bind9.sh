@@ -6,7 +6,7 @@ apt-get update
 apt-get install -y bind9
 cd /etc/bind
 
-cat >> name.conf.options <<EOF
+cat >> named.conf.options <<EOF
 options {
     directory "/var/cache/bind";
 
@@ -23,11 +23,11 @@ options {
     //  0.0.0.0;
     // };
      forwarders {
+     	223.5.5.5;
+        223.6.6.6;
         8.8.8.8;
         8.8.4.4;
-        223.5.5.5;
-        223.6.6.6;
-        127.0.0.53;
+        //127.0.0.53;
      };
     listen-on port 53{any;};
     allow-query {any;};
