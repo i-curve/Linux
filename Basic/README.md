@@ -18,7 +18,7 @@ bash bashrc.sh
 
 # vim配置：
 
-[源配置地址](https://github.com/i-curve/language/blob/master/Linux/vim/vim.md)
+[源配置地址](https://github.com/i-curve/language/blob/master/LINUX/vim/vim.md)
 
 vim的插件管理器选择的是vim-plug, 直接运行下面命令,会创建一个~/.vimrc配置文件. 有我常用的vim配置
 
