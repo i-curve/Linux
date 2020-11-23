@@ -48,4 +48,4 @@ $ git clone https://github.com/i-curve/Linux.git
 
 # License
 
-[BSD-3-ClAUSE License](LICENSE)
+[BSD-3-CLAUSE License](LICENSE)
